@@ -1,0 +1,34 @@
+# Coordination Analysis Configuration
+
+#CPU usage
+Cores = 4
+
+# Input Files
+INPUT_DATA=lammps.data
+INPUT_TRAJECTORY=trajectory.dump
+OUTPUT_FILE=coordination_numbers.dat
+
+# Frame Selection
+START_FRAME=0      # Start from the beginning
+END_FRAME=unlimited  # Process all frames 
+
+# Cell List Configuration
+CELL_UPDATE_FREQ=20        # Update cell list every 5 frames
+SELECTIVE_REBUILD=yes      # Enable selective cell rebuilding
+
+# Atom Types Configuration
+ATOM_TYPES=3
+
+# Format: TypeID Name Include(Y/N) Mass
+TYPE_1= Li   
+TYPE_2= Li 
+TYPE_3= O 
+
+# Coordination Pair Cutoffs
+# Format: Type1 Type2 Cutoff
+PAIR_CUTOFF_1_1= 3.0
+PAIR_CUTOFF_1_2= 3.2
+PAIR_CUTOFF_1_3= 3.1
+PAIR_CUTOFF_2_2= 3.3
+PAIR_CUTOFF_2_3= 3.2
+PAIR_CUTOFF_3_3= 3.4
