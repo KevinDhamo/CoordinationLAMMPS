@@ -1,6 +1,7 @@
 # Coordination Analysis Program: A Developer's Guide
 
 This document provides a comprehensive overview of the coordination analysis program, highlighting key components with code snippets from each module. This program analyzes molecular dynamics trajectories to calculate coordination numbers between different atom types.
+It still needs updated to sort out different redudant and old things that were tried, maybe used and decided that need to be there or just simply werent useful enough to keep.
 
 ## Program Overview
 
